@@ -1,0 +1,22 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisMooney04/expressjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisMooney04/expressjs/issues"
+  },
+  "homepage": "https://github.com/ChrisMooney04/expressjs#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
