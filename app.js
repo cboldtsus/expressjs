@@ -9,16 +9,16 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/main.html'));
 });
 app.get("/chris", (req, res) => {
-  res.sendFile(path.join(__dirname, '/chris.html'));
+  res.sendFile(path.join(__dirname, '/oley.html'));
 });
 app.get("/will", (req, res) => {
-  res.sendFile(path.join(__dirname, '/will.html'));
+  res.sendFile(path.join(__dirname, '/john.html'));
 });
 app.get("/jayson", (req, res) => {
-  res.sendFile(path.join(__dirname, '/Jayson.html'));
+  res.sendFile(path.join(__dirname, '/jaysin.html'));
 });
 app.get("/tyler", (req, res) => {
-  res.sendFile(path.join(__dirname, '/tyler.html'));
+  res.sendFile(path.join(__dirname, '/christian.html'));
 });
 
 app.listen(port);
